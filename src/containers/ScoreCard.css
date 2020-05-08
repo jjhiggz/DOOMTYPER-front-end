@@ -1,0 +1,37 @@
+body{
+  background-color: darkred;
+}
+.score-card {
+  width:300px;
+  height:300px;
+  background-color: black;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.score-card li{
+  color:white;
+  font-size: 30px;
+  display:flex;
+  flex-wrap: wrap;
+}
+.score-element{
+  width: 250px;
+  height: 100px;
+  display:flex;
+  border-radius:10%;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color:white;
+}
+.score-element p{
+  color:white;
+}
+.score-element li{
+  width:100%;
+  color:black;
+  font-family: 'Orbitron', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
